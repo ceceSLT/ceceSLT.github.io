@@ -1,0 +1,70 @@
+.jersey-25-regular {
+	font-family: "Jersey 25", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+body {
+	background-image: url("file:///G:/site/img/Fond.png");
+	background-color: #000000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	}
+	
+.titre{
+font-size: 70px;
+color: #FFFFFF;
+font-family: "Jersey 25";
+position: absolute;
+top: 150px;
+left: 1020px;
+}
+
+.intro {
+font-size: 50px;
+color: #FFFFFF;
+font-family: "Jersey 25";
+position: absolute;
+top: 270px;
+left: 1020px;
+}
+
+.bande1{
+	position: absolute;
+	font-family: "Jersey 25";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    width: 10%;
+    height: 75px;
+	top: 20px;
+	left: 180px;
+    transition: transform 0.3s ease;
+}
+
+.bande1:hover{
+	display: flex;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px  white;
+    transform: translateY(10px);
+}
+
+.def{
+font-size: 50px;
+color: #FFFFFF;
+font-family: "Jersey 25";
+position: absolute;
+top: 600px;
+left: 100px;	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
